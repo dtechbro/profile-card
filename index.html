@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <div class="bg-head">
+        <figure>
+          <img
+            src="./profile-image.jpg"
+            alt=""
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <div>
+          <h2 data-testid="test-user-name">dtechbro</h2>
+          <p data-testid="test-user-time" class="timer">
+            Time in (ms): <span id="currentTime"></span>
+          </p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div>
+          <p class="text-head">BIO</p>
+          <p data-testid="test-user-bio">
+            Software Engineer passionate about building impactful web and mobile applications. I specialize in creating elegant, user-focused solutions that solve real-world problems. With expertise in modern web technologies and a commitment to clean code, I transform ideas into scalable digital experiences. Always learning, always building.
+          </p>
+        </div>
+
+        <div data-testid="test-user-social-links">
+          <p class="text-head">CONNECT WITH ME</p>
+          <nav>
+            <a
+              href="https://www.x.com/dtechbro"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-twitter"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+
+            <a
+              href="https://www.github.com/dtechbro"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/olaoye-md-nabeel"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-linkedin"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/detechbro"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </nav>
+        </div>
+         
+        <section>
+          <p class="text-head">HOBBIES</p>
+          <ul>
+            <li data-testid="test-user-hobbies">Football</li>
+            <li data-testid="test-user-hobbies">Movies</li>
+            <li data-testid="test-user-hobbies">Games</li>
+          </ul>
+        </section>
+
+        <section>
+          <p class="text-head">DISLIKES</p>
+          <ul>
+            <li data-testid="test-user-dislikes">Dishonesty</li>
+            <li data-testid="test-user-dislikes">Fraud</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+  </body>
+</html>
+
+<script src="./script.js"></script>
