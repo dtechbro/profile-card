@@ -2,7 +2,7 @@
 
 A modern, responsive profile card built with HTML, CSS, and JavaScript. Features a clean black and white design with smooth animations and full keyboard accessibility.
 
-![Profile Card Preview](./preview.png)
+<!-- ![Profile Card Preview](./preview.png) -->
 
 ## Features
 
@@ -16,7 +16,7 @@ A modern, responsive profile card built with HTML, CSS, and JavaScript. Features
 
 ## Demo
 
-Visit the live demo: [Your Demo Link Here]
+Visit the live demo: [[Demo Link](https://dtechbro-card.netlify.app/)]
 
 ## Technologies Used
 
@@ -155,7 +155,7 @@ This project is open source and available under the [MIT License](LICENSE).
 **dtechbro**
 - GitHub: [@dtechbro](https://github.com/dtechbro)
 - Twitter: [@dtechbro](https://x.com/dtechbro)
-- LinkedIn: [Olaoye MD Nabeel](https://www.linkedin.com/in/olaoye-md-nabeel)
+- LinkedIn: [Olaoye Muhammad-Nabeel](https://www.linkedin.com/in/olaoye-md-nabeel)
 - Instagram: [@detechbro](https://www.instagram.com/detechbro)
 
 ## Contributing
