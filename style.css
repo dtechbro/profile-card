@@ -177,6 +177,48 @@ ul li:hover {
   border-color: #000000;
 }
 
+/* Navigation Links in Header */
+.bg-head ul {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.navlink {
+  list-style: none;
+  margin: 0;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.navlink a {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.3px;
+}
+
+.navlink a:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+}
+
+.navlink a:active {
+  transform: translateY(0);
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   body {
@@ -219,6 +261,16 @@ ul li:hover {
     height: 44px;
     font-size: 18px;
   }
+  
+  .bg-head ul {
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .navlink a {
+    font-size: 13px;
+    padding: 7px 16px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -244,5 +296,10 @@ ul li:hover {
   ul li {
     font-size: 14px;
     padding: 6px 12px;
+  }
+  
+  .navlink a {
+    font-size: 12px;
+    padding: 6px 14px;
   }
 }
